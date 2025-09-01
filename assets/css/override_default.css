@@ -38,11 +38,11 @@ body.doz_sys.modal-open {
 }
 
 
-/* @media (min-width: 991px) {
+@media (min-width: 991px) {
 	#doz_header_wrap {
 		width: 100%;
 		padding: 0;
-		position: fixed;
+		/* position: fixed; */
 		word-break: keep-all;
 		white-space: nowrap;
 		> #doz_header {
@@ -62,7 +62,7 @@ body.doz_sys.modal-open {
 		}
 		
 	}
-	@media (hover: none) {
+	/* @media (hover: none) {
 		.viewport-nav.desktop._main_menu {
 			li:has(> ul) {
 				> a {
@@ -70,8 +70,8 @@ body.doz_sys.modal-open {
 				}
 			}
 		}
-	}
-} */
+	} */
+}
 
 
 
