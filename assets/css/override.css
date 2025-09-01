@@ -36,7 +36,14 @@ body.doz_sys.modal-open {
 	max-height: calc(var(--lvh) * 100);
 	min-height: calc(var(--lvh) * 100);
 }
-
+#doz_header_wrap {
+	width: 100%;
+	padding: 0;
+	position: fixed;
+	> #doz_header {
+		padding: 0 var(--default-container-padding);
+	}
+}
 #doz_footer_wrap {
 	margin-top: 0;
 }
