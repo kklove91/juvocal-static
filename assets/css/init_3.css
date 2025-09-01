@@ -38,20 +38,6 @@ body.doz_sys.modal-open {
 }
 
 
-@media (min-width: 991px) {
-	#doz_header_wrap {
-		width: 100%;
-		padding: 0;
-		position: fixed;
-		> #doz_header {
-			padding: 0 var(--default-container-padding);
-			background-color: white;
-		}
-		.inline-section[section-code="s20250827c65f19b95aaa1"] {
-			display: flex;
-		}
-	}
-}
 
 
 
