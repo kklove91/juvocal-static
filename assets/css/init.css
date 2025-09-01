@@ -42,6 +42,7 @@ body.doz_sys.modal-open {
 	position: fixed;
 	> #doz_header {
 		padding: 0 var(--default-container-padding);
+		background-color: white;
 	}
 }
 #doz_footer_wrap {
