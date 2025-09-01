@@ -38,6 +38,42 @@ body.doz_sys.modal-open {
 }
 
 
+/* @media (min-width: 991px) {
+	#doz_header_wrap {
+		width: 100%;
+		padding: 0;
+		position: fixed;
+		word-break: keep-all;
+		white-space: nowrap;
+		> #doz_header {
+			padding: 0 calc(var(--default-container-padding) / 2);
+			background-color: white;
+		}
+		.inline-section[section-code="s20250827c65f19b95aaa1"] {
+			display: flex;
+			justify-content: space-between;
+			> div[data-type="col-group"] {
+				display: flex;
+				align-items: center;
+				&[data-col-group="right"] {
+					justify-content: flex-end;
+				}
+			}
+		}
+		
+	}
+	@media (hover: none) {
+		.viewport-nav.desktop._main_menu {
+			li:has(> ul) {
+				> a {
+					pointer-events: none;
+				}
+			}
+		}
+	}
+} */
+
+
 
 
 
